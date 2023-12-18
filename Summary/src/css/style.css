@@ -1,0 +1,261 @@
+/* Projeto completo, feito por Bruno */
+
+/* Style CSS */
+/* Main */
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(33, 33, 70);
+}
+
+/* Menu */
+.summary-menu {
+    width: 670px;
+    height: 540px;
+    background-color: rgb(67, 72, 87);
+    border-radius: 30px;
+    box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+/* Resultado */
+.results {
+    width: 395px;
+    height: 542px;
+    background: linear-gradient(180deg, rgb(95, 83, 255), rgb(39, 0, 182));
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.results .itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.itens .title-result {
+    font-size: 13pt;
+    font-weight: 600;
+    color: rgb(197, 197, 197);
+    margin-bottom: 15px;
+}
+
+/* Pontos */
+.itens .points {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(180deg, rgb(3, 6, 190), rgba(97, 113, 255, 0.1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 100%;
+}
+
+.points .point {
+    color: white;
+    font-size: 60pt;
+    font-weight: 400;
+}
+
+.points .goal {
+    color: rgb(197, 197, 197);
+    font-size: 9pt;
+    font-weight: 600;
+}
+
+/* Mensagens */
+.itens .title-2 {
+    color: white;
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+.mensagem {
+    color: rgb(197, 197, 197);
+    font-size: 9pt;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Summary */
+.summary {
+    width: 375px;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.summary .summ {
+    width: 100%;
+    height: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 13pt;
+    margin-left: 70px;
+    margin-bottom: 15px;
+    margin-top: -55px;
+}
+
+.pontos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Reaction */
+.reaction {
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    align-items: center;
+    background: rgba(255, 0, 0, 0.226);
+}
+
+.reaction .pont {
+    display: flex;
+    gap: 5px;
+}
+
+.reaction .react {
+    color: rgb(255, 66, 66);
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+.reaction .react img {
+    width: 13px;
+    height: 100%;
+}
+
+.pont .po {
+    color: white;
+    font-weight: 700;
+}
+
+.pont .goal {
+    font-size: 10pt;
+    color: rgb(129, 129, 129);
+}
+
+/* Memory */
+.memory {
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 65px;
+    align-items: center;
+    background: rgba(250, 155, 13, 0.226);
+}
+
+.memory .pont {
+    display: flex;
+    gap: 5px;
+}
+
+.memory .memor {
+    color: rgb(250, 168, 61);
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+.memory .memor img {
+    width: 13px;
+    height: 100%;
+}
+
+/* Verbal */
+.verbal {
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 75px;
+    align-items: center;
+    background: rgba(82, 153, 123, 0.226);
+}
+
+.verbal .pont {
+    display: flex;
+    gap: 5px;
+}
+
+.verbal .verb {
+    color: rgb(93, 192, 146);
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+.verbal .verb img {
+    width: 13px;
+    height: 100%;
+}
+
+.visual {
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    align-items: center;
+    background: rgba(140, 69, 255, 0.226);
+}
+
+/* Visual */
+.visual .pont {
+    display: flex;
+    gap: 5px;
+}
+
+.visual .visu {
+    color: rgb(145, 105, 255);
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+.visual .visu img {
+    width: 13px;
+    height: 100%;
+}
+
+/* Button */
+a {
+    text-decoration: none;
+}
+
+.button-c {
+    /* botao */
+    width: 280px;
+    height: 50px;
+    background: rgb(221, 221, 221);
+
+    /* texto do botao */
+    border-radius: 50px;
+    color: rgb(87, 87, 87);
+    font-size: 11pt;
+    font-weight: 600;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.button-c:hover{
+    transform: scale(1.05);
+    transition: .3s;
+}
