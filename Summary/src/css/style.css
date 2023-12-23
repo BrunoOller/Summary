@@ -8,7 +8,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(33, 33, 70);
+    background-image: url(../img/fundo.png);
 }
 
 /* Menu */
@@ -25,7 +25,7 @@ main {
 .results {
     width: 395px;
     height: 542px;
-    background: linear-gradient(180deg, rgb(95, 83, 255), rgb(39, 0, 182));
+    background: linear-gradient(180deg, rgb(123, 114, 250), rgb(228, 149, 252), rgb(204, 143, 191), rgb(218, 164, 94));
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -51,7 +51,7 @@ main {
 .itens .points {
     width: 200px;
     height: 200px;
-    background: linear-gradient(180deg, rgb(3, 6, 190), rgba(97, 113, 255, 0.1));
+    background: linear-gradient(180deg, rgb(228, 149, 252), rgba(97, 113, 255, 0.1));
     display: flex;
     justify-content: center;
     align-items: center;
